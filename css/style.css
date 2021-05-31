@@ -1,0 +1,46 @@
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: seagreen;
+}
+
+body {
+  height: 1800px;
+}
+
+.box-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#box {
+  background-color: #3f3f3f;
+  width: 150px;
+  height: 150px;
+}
+
+.button {
+  border: none;
+  background-color: grey;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: blue;
+  border: 5px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.disappear {
+  display: none;
+}
+
+.banner p {
+  color: red;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
